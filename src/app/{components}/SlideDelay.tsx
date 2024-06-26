@@ -21,7 +21,7 @@ const SlideDelay = () => {
           unicodeBidi: "isolate",
         }}
       >
-        A collection of work
+        {/* A collection of work */}
       </h2>
     </>
   );

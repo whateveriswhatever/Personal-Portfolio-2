@@ -34,7 +34,7 @@ const HeaderSlide = () => {
       className="phone:pt-[20px] phone:pr-[20px] phone:pb-[20px] phone:pl-[20px] w-full flex justify-between items-center fixed top-[0] z-[1000] p-[40px] box-border"
     >
       <Link href="/" className="logo" content="Duy La" />
-      <Link href="/infor" className="" content="Infor" />
+      <Link href="/infor" className="" content="About" />
     </div>
   );
 };

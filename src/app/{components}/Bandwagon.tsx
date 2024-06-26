@@ -35,7 +35,7 @@ const Bandwagon = () => {
 
         // style={{ animationIterationCount: "1", animationFillMode: "backwards" }}
       >
-        I'm Duy La - Junior software engineer & computer engineering student.
+        I'm Duy La - A computer engineering student.
       </h1>
     </div>
   );

@@ -40,7 +40,7 @@ const Section: React.FC<SectionType> = ({
 const Description: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
   return (
-    <div id="description">
+    <div id="description" className="desktop:mt-[20rem]">
       <p className="phone:font-[400] phone:leading-[1.8rem] leading-[160%] font-[300] text-[1.375rem]">
         I'm Duy, a sophomore computer engineering student at Hanoi, Vietnam
         National University with 1 year of learning web development and building
