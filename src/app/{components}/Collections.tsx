@@ -85,7 +85,7 @@ const Collections: React.FC = () => {
   return (
     <div
       id="grid"
-      className={`desktop:max-w-[1200px] desktop:h-fit phone:h-[5970px] flex flex-wrap content-between phone:pt-[10px] phone:pl-[10px] phone:pr-[10px] phone:pb-[10px] desktop:pt-[20px] desktop:pl-[20px] desktop:pr-[20px] desktop:pb-[20px] transition-transform delay-[.9s] ease-[cubic-bezier(0.2, 0.6, 0.2, 1)] duration-[0.6s] ${
+      className={`desktop:max-w-[1200px] desktop:h-fit phone:h-fit flex flex-wrap content-between phone:pt-[10px] phone:pl-[10px] phone:pr-[10px] phone:pb-[10px] desktop:pt-[20px] desktop:pl-[20px] desktop:pr-[20px] desktop:pb-[20px] transition-transform delay-[.9s] ease-[cubic-bezier(0.2, 0.6, 0.2, 1)] duration-[0.6s] phone:flex-wrap phone:justify-between phone:max-w-[1200px] phone:mt-0 phone:mr-auto phone:ml-auto phone:mb-0 ${
         !isRefreshed
           ? "opacity-0 translate-y-[10vh]"
           : "opacity-100 translate-y-0"
@@ -100,7 +100,7 @@ const Collections: React.FC = () => {
       />
 
       <FlexMansoryItem2
-        tailwindCSSStyling="desktop:w-[491px] desktop:mb-[200px] text-center box-border inline-block relative desktop:top-[100px] desktop:mt-[20rem] desktop:ml-[10rem]"
+        tailwindCSSStyling="desktop:w-[491px] desktop:mb-[200px] text-center box-border inline-block relative desktop:top-[100px] desktop:mt-[20rem] desktop:ml-[10rem] phone:mt-[3.5rem]"
         hrefStr="https://github.com/whateveriswhatever/Vietnam-Starbucks-Clone"
         imgSrc="https://cdn.dribbble.com/userupload/8409348/file/original-66bd1641135091364848b4eaa8f1ee27.png?resize=1024x576"
         workItemCompany="@food"
@@ -108,7 +108,7 @@ const Collections: React.FC = () => {
       />
 
       <FlexMansoryItem2
-        tailwindCSSStyling="desktop:w-[491px] desktop:mb-[100px] text-center box-border inline-block absolute desktop:mt-[48rem]"
+        tailwindCSSStyling="desktop:w-[491px] desktop:mb-[100px] text-center box-border inline-block absolute desktop:mt-[48rem] phone:mt-[46rem]"
         hrefStr="https://codepen.io/whateveriswhatever/details/VwVyoLx"
         imgSrc="https://cdn.dribbble.com/users/2842121/screenshots/19762210/media/cd60a05c10effe763cc669a4d54e8d4a.png?resize=1000x750&vertical=center"
         workItemCompany="@note"
